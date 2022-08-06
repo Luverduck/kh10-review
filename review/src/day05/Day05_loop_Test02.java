@@ -9,7 +9,7 @@ public class Day05_loop_Test02 {
 		Scanner sc = new Scanner(System.in);
 	
 		for(int i = 0 ; i < 5 ; i ++) {
-			int a = sc.nextInt();
+			int input = sc.nextInt();
 		}
 	
 		sc.close();
