@@ -4,7 +4,7 @@ public class Test01 {
 
 	public static void main(String[] args) {
 		
-		// 브라질 객체 생성
+		// 브라질 객체 생성 
 		Country a = new Country();
 		a.rank = 1;
 		a.name = "브라질";
