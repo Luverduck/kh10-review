@@ -2,7 +2,7 @@ package day09_oop.basic3;
 
 public class Telecom {
 
-	// 멤버 필드
+	// 멤버 필드 
 	String tel;
 	String name;
 	int price;
@@ -10,7 +10,7 @@ public class Telecom {
 	int call;
 	int message;
 	
-	// 출력 메소드
+	// 출력 메소드 
 	void print() {
 		System.out.println("통신사 : " + this.tel);
 		System.out.println("상품명 : " + this.name);

@@ -4,7 +4,7 @@ public class Test01 {
 	
 	public static void main(String[] args) {
 		
-		// SK 생성
+		// SK 생성 
 		Telecom a = new Telecom();
 		a.tel = "SK";
 		a.name = "5G언텍트 52";
