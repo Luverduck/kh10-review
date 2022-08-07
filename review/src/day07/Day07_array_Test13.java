@@ -4,7 +4,7 @@ public class Day07_array_Test13 {
 
 	public static void main(String[] args) {
 		
-		// 배열의 생성
+		// 배열의 생성 
 		int[] array = new int[] {30, 10, 20, 50, 40};
 				
 		// 정렬 전 출력
