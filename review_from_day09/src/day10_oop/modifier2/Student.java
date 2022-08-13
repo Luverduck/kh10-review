@@ -3,23 +3,23 @@ package day10_oop.modifier2;
 public class Student {
 
 	// 멤버 필드
-	String name;
-	int level, korean, english, math;
+	private String name;
+	private int level, korean, english, math;
 	
 	// getter & setter
-	String getName() {
+	public String getName() {
 		return this.name;
 	}
 	
-	void setName(String name) {
+	public void setName(String name) {
 		this.name = name;
 	}
 	
-	int getLevel() {
+	public int getLevel() {
 		return this.level;
 	}
 	
-	void setLevel(int level) {
+	public void setLevel(int level) {
 		switch(level) {
 		case 1: case 2: case 3:
 			break;
@@ -27,45 +27,45 @@ public class Student {
 		this.level = level;
 	}
 	
-	int getkorean() {
+	public int getkorean() {
 		return this.korean;
 	}
 	
-	void setKorean(int korean) {
+	public void setKorean(int korean) {
 		if(korean >= 0 && korean <= 100) {
 			this.korean = korean;
 		}
 	}
 	
-	int getEnglish() {
+	public int getEnglish() {
 		return this.english;
 	}
 	
-	void setEnglish(int english) {
+	public void setEnglish(int english) {
 		if(english >= 0 && english <= 100) {
 			this.english = english;
 		}
 	}
 	
-	int getMath() {
+	public int getMath() {
 		return this.math;
 	}
 	
-	void setMath(int math) {
+	public void setMath(int math) {
 		if(math >= 0 && math <= 100) {
 			this.math = math;
 		}
 	}
 	
-	int getSum() {
+	public int getSum() {
 		return this.korean + this.english + this.korean;
 	}
 	
-	double getAvg() {
+	public double getAvg() {
 		return getSum() / 3.0;
 	}
 	
-	String getGrade() {
+	public String getGrade() {
 		if(getAvg() < 70) {
 			return "F";
 		}
@@ -89,7 +89,7 @@ public class Student {
 	}
 	
 	// 출력 메소드
-	void print() {
+	public void print() {
 		System.out.println("이름 : " + this.name);
 		System.out.println("총점 : " + this.getSum());
 		System.out.println("평균 : " + this.getAvg());
