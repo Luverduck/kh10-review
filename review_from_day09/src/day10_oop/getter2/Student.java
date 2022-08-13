@@ -1,7 +1,7 @@
 package day10_oop.getter2;
 
 public class Student {
-
+ 
 	// 멤버 필드
 	String name, course;
 	int score, scoreC;

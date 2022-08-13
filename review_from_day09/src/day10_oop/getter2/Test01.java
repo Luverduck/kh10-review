@@ -1,7 +1,7 @@
 package day10_oop.getter2;
 
 public class Test01 {
-
+ 
 	public static void main(String[] args) {
 		
 		// 객체 생성
