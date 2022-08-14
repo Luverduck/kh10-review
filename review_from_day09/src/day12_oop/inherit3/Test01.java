@@ -33,7 +33,5 @@ public class Test01 {
 		
 		c.papago();			// Whale의 파파고
 		c.naverSearch();	// Whale의 네이버 검색
-		
-		
 	}
 }
