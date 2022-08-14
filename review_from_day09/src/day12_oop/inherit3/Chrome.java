@@ -1,5 +1,5 @@
 package day12_oop.inherit3;
-
+ 
 public class Chrome extends Browser {	// Browser 클래스의 상속을 받음
 
 	// Chrome의 메소드

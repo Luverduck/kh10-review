@@ -1,5 +1,5 @@
 package day12_oop.inherit3;
-
+ 
 // 슈퍼 클래스
 public class Browser {
 
