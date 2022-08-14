@@ -1,7 +1,7 @@
-package day10_oop.keyword9;
+package day11_oop.keyword9;
 
 public class User {
-
+ 
 	// 멤버 필드
 	private final String id;
 	private String pw;

@@ -1,7 +1,7 @@
-package day10_oop.keyword9;
+package day11_oop.keyword9;
 
 import java.util.Scanner;
-
+ 
 public class Test01 {
 
 	public static void main(String[] args) {
