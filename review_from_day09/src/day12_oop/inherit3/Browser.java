@@ -4,7 +4,7 @@ package day12_oop.inherit3;
 public class Browser {
 
 	// 멤버 필드
-	private String url;
+	protected String url;	// 상속관계인 클래스에서만 호출할 수 있도록 protected로 설정
 	
 	// getter & setter
 	public String getUrl() {
