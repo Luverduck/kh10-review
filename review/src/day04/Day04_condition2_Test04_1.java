@@ -6,10 +6,10 @@ public class Day04_condition2_Test04_1 {
 
 	public static void main(String[] args) {
 		
-		int year = 2100;
+		int year = 2020;
 		int month = 2;
 		
-		boolean leap = year % 4 == 0 || year % 100 != 0 || year % 400 == 0;
+		boolean leap = year % 4 == 0 && year % 100 != 0 || year % 400 == 0;
 		
 		int day;
 		switch(month) {
