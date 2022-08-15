@@ -1,5 +1,5 @@
 package day04;
-
+ 
 import java.lang.*; 
 
 public class Day04_condition2_Test04_solve {
