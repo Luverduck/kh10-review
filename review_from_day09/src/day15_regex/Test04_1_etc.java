@@ -3,7 +3,7 @@ package day15_regex;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
-public class Test04_2_etc {
+public class Test04_1_etc {
 
 	public static void main(String[] args) {
 
