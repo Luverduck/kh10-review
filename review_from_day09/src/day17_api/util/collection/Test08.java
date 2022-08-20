@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Test08 {
 
 	public static void main(String[] args) {
-		
+		 
 		// Scanner 생성
 		Scanner sc = new Scanner(System.in);
 		
