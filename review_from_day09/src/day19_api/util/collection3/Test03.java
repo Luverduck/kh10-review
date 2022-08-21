@@ -21,7 +21,9 @@ public class Test03 {
 			String input = sc.nextLine();
 			
 			// 검색어를 대문자로 변환 (대소문자 구분 없애기)
-			String inputUpper = input.toUpperCase();
+			input = input.toUpperCase();
+			input = input.trim();
+			input = input.replace(" ","");
 			
 			// 종료 판정
 			if(input.equals("종료")) {
@@ -29,13 +31,13 @@ public class Test03 {
 			}
 			
 			// 판정
-			if(data.containsKey(inputUpper)) {
-				data.put(inputUpper, data.get(inputUpper) + 1);
-				System.out.println("[" + input + "] " + "검색이 완료되었습니다. 현재 검색횟수 [" + data.get(inputUpper) + "]");
+			if(data.containsKey(input)) {
+				data.put(input, data.get(input) + 1);
+				System.out.println("[" + input + "] " + "검색이 완료되었습니다. 현재 검색횟수 [" + data.get(input) + "]");
 			}
 			else {
-				data.put(inputUpper, 1);
-				System.out.println("[" + input + "] " + "검색이 완료되었습니다. 현재 검색횟수 [" + data.get(inputUpper) + "]");
+				data.put(input, 1);
+				System.out.println("[" + input + "] " + "검색이 완료되었습니다. 현재 검색횟수 [" + data.get(input) + "]");
 			}
 		}
 		
