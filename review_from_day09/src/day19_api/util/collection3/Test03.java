@@ -3,7 +3,7 @@ package day19_api.util.collection3;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
-
+ 
 public class Test03 {
 
 	public static void main(String[] args) {
@@ -21,9 +21,9 @@ public class Test03 {
 			String input = sc.nextLine();
 			
 			// 검색어를 대문자로 변환 (대소문자 구분 없애기)
-			input = input.toUpperCase();
-			input = input.trim();
-			input = input.replace(" ","");
+			input = input.toUpperCase();		// 대문자로 변환
+			input = input.trim();				// 좌우 불필요한 여백 제거
+			input = input.replace(" ","");		// 공백 제거
 			
 			// 종료 판정
 			if(input.equals("종료")) {
