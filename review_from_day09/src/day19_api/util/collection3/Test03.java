@@ -21,9 +21,9 @@ public class Test03 {
 			String input = sc.nextLine();
 			
 			// 검색어를 대문자로 변환 (대소문자 구분 없애기)
-			input = input.toUpperCase();		// 대문자로 변환
-			input = input.trim();				// 좌우 불필요한 여백 제거
-			input = input.replace(" ","");		// 공백 제거
+			input = input.toUpperCase();		// 문자열을 모두 대문자로 변환
+			input = input.trim();				// 문자열 좌우 불필요한 여백 제거
+			input = input.replace(" ","");		// 문자열 내 공백 제거
 			
 			// 종료 판정
 			if(input.equals("종료")) {
